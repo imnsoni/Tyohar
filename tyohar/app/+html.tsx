@@ -30,9 +30,20 @@ export default function Root({ children }: { children: ReactNode }) {
 
 const responsiveBackground = `
 html, body, #root {
-  background-color: #FBF4E8;
+  background-color: #3a1515;
   height: 100%;
 }
 body {
   margin: 0;
-}`
+}
+input, textarea {
+  font-size: 16px !important;
+}
+@media (min-width: 520px) {
+  #root {
+    max-width: 430px;
+    margin: 0 auto;
+    box-shadow: 0 0 0 1px rgba(232, 213, 184, 0.35), 0 18px 50px rgba(0,0,0,0.35);
+  }
+}
+`;

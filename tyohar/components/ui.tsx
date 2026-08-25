@@ -163,7 +163,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 8,
     paddingVertical: 14,
+    paddingHorizontal: 18,
     borderRadius: radius.md,
+    minHeight: 50,
   },
   primaryLabel: {
     color: palette.white,

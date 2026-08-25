@@ -72,6 +72,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
     paddingVertical: 12,
     color: palette.ink,
+    fontSize: 16,
   },
   chips: { gap: 8, paddingBottom: 4 },
   card: {
